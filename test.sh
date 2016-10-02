@@ -11,8 +11,8 @@
 #  REQUIREMENTS: Bash
 #          BUGS: ---
 #         NOTES: ---
-#        AUTHOR: Henrik Ahlkvist(henrik.ahlkvis@gmail.com), 
-#  ORGANIZATION: Open Source
+#        AUTHOR: Henrik Ahlkvist(henrik.ahlkvis@gmail.com) 
+#  ORGANIZATION: 
 #       CREATED: 2016-10-01 16:21
 #      REVISION:  ---
 #===============================================================================
