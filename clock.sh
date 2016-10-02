@@ -41,7 +41,7 @@ else
 
 		clear
 		printf "%s\r" "The current second is : `date +%S`"
-		sleep 0.99
+		sleep 0.99999
 	done
 fi
 }
