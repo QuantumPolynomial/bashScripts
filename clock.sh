@@ -18,13 +18,16 @@
 #===============================================================================
 #check so arguments are passed
 if [ $# -ne 1  ]; then
-	    echo $0: usage:./clock.sh standard or seconds 
-		    exit 1
-		fi
-hours="standard"
-displayMode=$1
+	echo $0: usage:./clock.sh standard or seconds 
+	exit 1
+fi
 
-if [ $displayMode == "$hours" ]; then
+displayMode=$1
+hours="standard"
+check_what_clock(){
+
+
+if [ "$displayMode" == "$hours" ]; then
 	while true;do
 
 		clear
@@ -41,3 +44,5 @@ else
 		sleep 0.99
 	done
 fi
+}
+check_what_clock
