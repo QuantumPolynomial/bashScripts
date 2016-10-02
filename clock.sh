@@ -1,4 +1,4 @@
-#!/bin/bash - 
+#!/usr/bin/env bash
 #===============================================================================
 #
 #          FILE: test.sh
@@ -23,15 +23,15 @@ read choice
 
 if (("$choice"=="1"));then
 
-	while true;
-	do
+	while true;do
+
 		clear
 		printf "%s\r" "The clock is : `date +%R` "
 		sleep 30
 	done
 else
-	while true;
-	do
+	while true;do
+
 		clear
 		printf "%s\r" "The current second is : `date +%S`"
 		sleep 0.99
